@@ -1,0 +1,28 @@
+.faq-container {
+  width: 600px;
+  margin: 50px auto;
+}
+
+.faq-container h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.faq-item {
+  border-bottom: 1px solid #ddd;
+}
+
+.faq-question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.faq-answer {
+  padding: 0 0 15px 0;
+  font-size: 16px;
+  color: #555;
+}

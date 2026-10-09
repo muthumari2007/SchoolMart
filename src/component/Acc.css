@@ -1,0 +1,27 @@
+.accordion {
+  width: 500px;
+  margin: auto;
+}
+
+.accordion .accordion-item {
+  border: none;
+  border-bottom: 1px solid #ccc;
+}
+
+.accordion .accordion-button {
+  background: white;
+  box-shadow: none;
+  padding: 25px 0;
+  font-size: 20px;
+  color: black;
+}
+
+.accordion .accordion-button::after {
+  margin-left: auto;
+}
+
+.accordion .accordion-body {
+  padding: 10px 0 15px 0;
+  font-size: 17px;
+  color: black;
+}
